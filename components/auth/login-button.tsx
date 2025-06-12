@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 interface LoginButtonProps {
@@ -10,15 +11,16 @@ interface LoginButtonProps {
 export default function LoginButton({
   children,
   model = "redirect",
-//   asChild,
-}: LoginButtonProps) {
+}: //   asChild,
+LoginButtonProps) {
+  const router = useRouter();
 
   const onClick = () => {
-    console.log("loging button clicked");
+    router.push("/auth/login");
   };
 
-  if(model==="model"){
-    return(<span>TODO: Implement model</span>)
+  if (model === "model") {
+    return <span>TODO: Implement model</span>;
   }
 
   return (
