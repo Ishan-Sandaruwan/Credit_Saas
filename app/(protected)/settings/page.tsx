@@ -1,11 +1,12 @@
-import { signOut } from "@/auth";
+import { auth, signOut } from "@/auth";
 import { Button } from "@/components/ui/button";
 import React from "react";
 
-export default function SettingsPage() {
+export default async function SettingsPage() {
+  const session = await auth();
   return (
     <div>
-      SettingsPage
+      {JSON.stringify(session?.user.role)}
       <form
         action={async () => {
           "use server";
