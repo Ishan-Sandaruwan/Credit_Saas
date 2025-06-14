@@ -38,13 +38,16 @@ First, clone the repository:
 ```bash
 git clone https://github.com/Ishan-Sandaruwan/Credit_Saas.git
 cd credit-customer-manager
+```
 
 Then, install the dependencies:
+```bash
 npm install
-
+```
 Start the development server:
+```bash
 npm run dev
-
+```
 Visit http://localhost:3013 in your browser.
 
 🧠 Learn More
