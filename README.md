@@ -26,9 +26,8 @@ A **Next.js 14** web application designed to help **retail business owners** eff
 
 - **Framework:** [Next.js 14](https://nextjs.org)
 - **Authentication:** [NextAuth.js](https://next-auth.js.org)
-- **Font Optimization:** [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) using [Geist](https://vercel.com/font)
-- **Styling:** Tailwind CSS *(or your preferred CSS solution)*
-- **Database:** PostgreSQL / Prisma *(planned)
+- **Styling:** Tailwind CSS 
+- **Database:** PostgreSQL
 
 ---
 
