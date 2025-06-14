@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Credit Customer Manager
 
-## Getting Started
+A **Next.js 14** web application designed to help **retail business owners** efficiently manage and track their **credit customers**. This tool simplifies record-keeping, enhances customer accountability, and empowers small businesses with digital tools usually reserved for larger enterprises.
 
-First, run the development server:
+---
+
+## 🚧 Project Status
+
+> ⚙️ Currently in development — Authentication system is being implemented using **NextAuth.js**.
+
+---
+
+## 🔐 Key Features (Planned)
+
+- ✅ Secure authentication with **NextAuth**
+- 📒 Manage customer credit records
+- 📅 Track payments and due dates
+- 🔍 Customer search and filtering
+- 📊 Basic credit analytics and summaries
+- 🖥️ Responsive design for desktop and mobile
+- 🧾 Export data to CSV/PDF (planned)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 14](https://nextjs.org)
+- **Authentication:** [NextAuth.js](https://next-auth.js.org)
+- **Font Optimization:** [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) using [Geist](https://vercel.com/font)
+- **Styling:** Tailwind CSS *(or your preferred CSS solution)*
+- **Database:** PostgreSQL / Prisma *(planned)
+
+---
+
+## 📦 Getting Started
+
+First, clone the repository:
 
 ```bash
+git clone https://github.com/yourusername/credit-customer-manager.git
+cd credit-customer-manager
+Then, install the dependencies:
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn
+# or
+pnpm install
+Start the development server:
+
+bash
+Copy
+Edit
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧠 Learn More
+To deepen your understanding of the tools used:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+NextAuth Documentation
 
-## Learn More
+Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👨‍💻 Author
+Developed by Ishan-Sandaruwan
 
-## Deploy on Vercel
+📌 License
+This project is licensed under the MIT License.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💡 This app aims to bring modern financial tracking to small retail shops—easy to use, mobile-friendly, and secure.
