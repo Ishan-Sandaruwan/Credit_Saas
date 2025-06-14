@@ -36,27 +36,16 @@ A **Next.js 14** web application designed to help **retail business owners** eff
 First, clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/credit-customer-manager.git
+git clone https://github.com/Ishan-Sandaruwan/Credit_Saas.git
 cd credit-customer-manager
+
 Then, install the dependencies:
-
-bash
-Copy
-Edit
 npm install
-# or
-yarn
-# or
-pnpm install
-Start the development server:
 
-bash
-Copy
-Edit
+Start the development server:
 npm run dev
-# or
-yarn dev
-Visit http://localhost:3000 in your browser.
+
+Visit http://localhost:3013 in your browser.
 
 🧠 Learn More
 To deepen your understanding of the tools used:
